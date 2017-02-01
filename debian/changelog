@@ -1,0 +1,6 @@
+wine-gecko-2.47 (2.47~0debiancn1) unstable; urgency=medium
+
+  * Initial release.
+    + Use prebuilt msi files.
+
+ -- Boyuan Yang <073plan@gmail.com>  Wed, 01 Feb 2017 22:55:13 +0800

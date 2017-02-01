@@ -1,0 +1,25 @@
+Source: wine-gecko-2.47
+Section: otherosfs
+Priority: optional
+Maintainer: Debian Wine Party <pkg-wine-party@lists.alioth.debian.org>
+Uploaders:
+ Ove Kaaven <ovek@arcticnet.no>,
+ Stephen Kitt <skitt@debian.org>,
+ Boyuan Yang <073plan@gmail.com>,
+Build-Depends:
+ debhelper (>= 10~),
+Standards-Version: 3.9.8
+Homepage: https://www.winehq.org/
+Vcs-Git: https://anonscm.debian.org/git/pkg-wine/wine-gecko.git
+Vcs-Browser: https://anonscm.debian.org/git/pkg-wine/wine-gecko.git
+
+Package: libwine-gecko-2.47
+Section: libs
+Architecture: all
+Depends:
+ ${misc:Depends},
+Description: Windows API implementation - web browser module
+ Wine is a free MS-Windows API implementation.
+ This is still a work in progress and many applications may still not work.
+ .
+ This package contains a HTML renderer based on the Mozilla engine, Gecko.
